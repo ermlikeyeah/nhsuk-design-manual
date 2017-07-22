@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/simonwilson/.rvm/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  6.2.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "nhs-transformation",
+    "private": true,
+    "dependencies": {
+      "gh-pages": "^0.12.0",
+      "markdown-it-named-headers": "^0.0.4",
+      "metalsmith": "^2.3.0",
+      "metalsmith-assets": "^0.1.0",
+      "metalsmith-ignore": "^0.1.2",
+      "metalsmith-in-place": "^1.4.4",
+      "metalsmith-layouts": "^1.8.0",
+      "metalsmith-markdownit": "^0.4.0",
+      "metalsmith-relative": "^1.0.3",
+      "metalsmith-sass": "^1.4.0",
+      "metalsmith-serve": "^0.0.7",
+      "metalsmith-watch": "^1.0.3",
+      "nhsuk-frontend": "nhsuk/frontend#0.2.1",
+      "node-sass-import-once": "^1.2.0",
+      "nunjucks": "^3.0.0"
+    },
+    "scripts": {
+      "build": "node build.js",
+      "serve": "node serve.js",
+      "deploy": "npm run build && gh-pages -d build"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.1.0.tgz: Request failed "503 Service Unavailable"
+      at Request.res (/usr/local/lib/node_modules/yarn/lib/fetchers/tarball-fetcher.js:203:20)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at Request.onRequestResponse (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1074:10)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:469:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:105:23)
+      at TLSSocket.socketOnData (_http_client.js:359:20)
+      at emitOne (events.js:96:13)
+      at TLSSocket.emit (events.js:188:7)

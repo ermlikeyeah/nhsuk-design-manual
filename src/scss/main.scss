@@ -1,0 +1,162 @@
+@import "nhsuk";
+
+@mixin underline($colour: $blue-50) {
+  margin-bottom: 20px;
+
+  &:after {
+    margin-top: 20px;
+    border-bottom: 3px solid $colour;
+    width: 100px;
+    content: "";
+    display: block;
+  }
+}
+
+@import "grid";
+@import "site-section";
+@import "service-block";
+@import "data-extract";
+@import "list";
+@import "callout";
+@import "media";
+@import "panel";
+
+.site-section__container h1 {
+  font-size: 64px;
+}
+
+.site-section__container h2 {
+  @include underline;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 16px;
+}
+
+.js-enabled .is-collapsed {
+  height: 0;
+  overflow: hidden;
+  margin-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  zoom: 1;
+}
+
+.video {
+  padding-top: 100%/(16/9);
+  background: $blue-50;
+  margin-top: 36px;
+  box-shadow: 0 1px 20px rgba($black, .2);
+  position: relative;
+}
+
+.video__player {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#s01 {
+  background-color: $nhs-blue;
+  color: $white;
+  position: relative;
+
+  &:before {
+    background-image: url(../background-doctor.jpg);
+    background-position: 50% 0%;
+  }
+}
+
+#s02-1,
+#s02-2,
+#s02-3 {
+  background-color: $yellow-50;
+
+  h2 {
+    font-size: 32px;
+    @include underline($yellow);
+  }
+}
+
+#s02-1:before {
+  background-image: url(../background-research.jpg);
+  background-size: cover;
+  margin-bottom: -30px;
+  background-position: 60% 30%;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 60px), 0 100%);
+  opacity: .5;
+
+  @include media(desktop) {
+    opacity: 1;
+  }
+}
+
+#s02-2 .side-image {
+  display: block;
+  margin: -20px auto 0;
+  width: 100%;
+  height: auto;
+
+  @include media(desktop) {
+    margin: -100px 0;
+  }
+}
+
+#s02-3:before {
+  background-image: url(../background-postits.jpg);
+  opacity: .6;
+  background-size: cover;
+  margin-top: -30px;
+  background-position: 50% 50%;
+  clip-path: polygon(0 0, 100% 60px, 100% 100%, 0 100%);
+}
+
+#s03 {
+  background-color: $nhs-blue;
+  color: $white;
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+#s04 {
+  background-color: $blue-10;
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+.list {
+  margin-top: 32px;
+}
+
+.full-width-header {
+  background: $nhs-blue;
+}
+
+.full-width-header {
+  background: $nhs-blue;
+}
+
+.example {
+  @include element-padding();
+  border: 2px solid $grey-3;
+  margin-top: 32px;
+  position: relative;
+
+  &:before {
+    content: "Preview";
+    position: absolute;
+    top: -26px;
+    left: -2px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: $grey-3;
+    color: $white;
+  }
+}

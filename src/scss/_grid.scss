@@ -1,0 +1,25 @@
+.grid-row {
+  @include grid-row;
+
+  &.grid-row {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    @include media(desktop) {
+      margin-top: 36px;
+      margin-bottom: 36px;
+    }
+  }
+}
+
+.grid-column {
+  @include grid-column(1/2);
+
+  & + & {
+    margin-top: 16px;
+
+    @include media(desktop) {
+      margin-top: 0;
+    }
+  }
+}

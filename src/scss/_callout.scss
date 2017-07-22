@@ -1,0 +1,24 @@
+.site-section__container .callout {
+  position: relative;
+
+  & + & {
+    margin-top: 16px;
+
+    @include media(desktop) {
+      margin-top: 0;
+    }
+  }
+
+  @include media(desktop) {
+    min-height: 230px;
+  }
+}
+
+.site-section__container .callout__link {
+  @include media(desktop) {
+    @include element-padding;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}

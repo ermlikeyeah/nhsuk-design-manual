@@ -1,0 +1,47 @@
+.media {
+  position: relative;
+  vertical-align: top;
+
+  @include media(tablet) {
+    max-width: 30em;
+  }
+}
+
+.media__caption {
+  background-color: $blue-10;
+  margin-top: 0;
+  padding: $default-spacing-unit;
+
+  .is-collapsed .gallery__item--collage & {
+    @include visuallyhidden;
+  }
+}
+        
+.media__container {
+  @include clearfix;
+    
+  .media {
+    margin-bottom: 16px;
+
+    @include media(tablet) {
+      float: left;
+      margin-top: 0;
+      max-width: 300px;
+    }
+  }
+
+  .media + .media {
+    @include media(tablet) {
+      margin-left: 16px;
+    }
+  }
+  
+  .media:nth-child(odd) {
+    @include media(tablet) {
+      clear: left;
+      margin-left: 0;
+    }
+  }  
+}
+
+

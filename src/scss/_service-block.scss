@@ -1,0 +1,28 @@
+.service-block {
+  @include element-padding;
+  border: 8px solid $blue-50;
+  background-color: tint($blue-10, 40);
+  position: relative;
+}
+
+.service-block__title {
+  @include underline;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+}
+
+div.service-block__phase {
+  background-color: $blue-50;
+  text-transform: uppercase;
+  color: $white;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 0 10px 5px;
+  margin: 0;
+}
+
+.service-block__link {
+  margin-top: 20px;
+}
