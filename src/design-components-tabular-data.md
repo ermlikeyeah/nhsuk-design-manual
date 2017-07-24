@@ -11,5 +11,5 @@ The table columns don’t stack on top of each other on mobile.
 
 #### Example
 <div class="example">
-  <img src="../assets/units/table.png " alt="Info callout">
+  <img src="assets/units/table.png " alt="Info callout">
 </div>  

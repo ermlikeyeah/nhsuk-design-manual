@@ -12,12 +12,12 @@ Media components are arranged in a grid on large viewports.
 
 #### Example
 <div class="example">
-  <img src="../assets/components/cards/image-cards-lg.png " alt="Media items in large viewport">
+  <img src="assets/components/cards/image-cards-lg.png " alt="Media items in large viewport">
 </div>  
 
 Media components are stacked on top of each other on small viewports.
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/cards/image-cards-sm.png " alt="Media items in small viewport">
+  <img src="assets/components/cards/image-cards-sm.png " alt="Media items in small viewport">
 </div>  

@@ -10,10 +10,10 @@ large viewports. We stack one on top of the other on smaller viewports.
 
 #### Example in a large viewport
 <div class="example">
-  <img src="../assets/components/binary-list-lg.png" alt="Binary list in large viewport">
+  <img src="assets/components/binary-list-lg.png" alt="Binary list in large viewport">
 </div>
 
 #### Example in a small viewport
 <div class="example">
-  <img src="../assets/components/binary-list-sm.png " alt="Binary list in small viewport">
+  <img src="assets/components/binary-list-sm.png " alt="Binary list in small viewport">
 </div>

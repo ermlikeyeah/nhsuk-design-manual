@@ -14,7 +14,7 @@ their condition. For example, when to see a GP or practice nurse.
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/callout/primary-care.png" alt="Primary care callout">
+  <img src="assets/components/callout/primary-care.png" alt="Primary care callout">
 </div>  
 
 #### Emergency care
@@ -24,7 +24,7 @@ For example, when to call 999.
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/callout/emergency.png" alt="Emergency callout">
+  <img src="assets/components/callout/emergency.png" alt="Emergency callout">
 </div>
 
 #### Urgent care
@@ -33,7 +33,7 @@ an emergency. For example, when to go to A&E or get an urgent doctor’s appoint
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/callout/urgent.png" alt="Urgent callout">
+  <img src="assets/components/callout/urgent.png" alt="Urgent callout">
 </div>
 
 #### Important
@@ -43,7 +43,7 @@ give one-off instructions.
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/callout/important.png" alt="Important callout">
+  <img src="assets/components/callout/important.png" alt="Important callout">
 </div>
 
 #### Information
@@ -53,5 +53,5 @@ This callout is often combined with a link to make a priority action.
 
 ##### Example
 <div class="example">
-  <img src="../assets/components/callout/info.png" alt="Info callout">
+  <img src="assets/components/callout/info.png" alt="Info callout">
 </div>

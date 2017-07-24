@@ -12,13 +12,13 @@ These are a combination of units and components to address a user need.
   <div class="column--two-thirds">
     <h3>Example in a large viewport</h3>
     <div class="example">
-      <img src="../assets/assemblies/viewport-large.png" alt="Assembly in large viewport">
+      <img src="assets/assemblies/viewport-large.png" alt="Assembly in large viewport">
     </div>
   </div>
   <div class="column--one-third">
     <h3>Example in a small viewport</h3>
     <div class="example">
-      <img src="../assets/assemblies/viewport-small.png" alt="Assembly list in small viewport">
+      <img src="assets/assemblies/viewport-small.png" alt="Assembly list in small viewport">
     </div>
   </div>
 </div>

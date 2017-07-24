@@ -12,6 +12,6 @@ most users’ needs, just to make a page shorter for instance.
 #### Example
 <div class="example">
   <div class="grid-row">
-    <img src="../assets/components/progressive-reveal-open-lg.png" alt="Progressive reveal open">
+    <img src="assets/components/progressive-reveal-open-lg.png" alt="Progressive reveal open">
   </div>
 </div>

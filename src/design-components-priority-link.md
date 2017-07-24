@@ -10,7 +10,7 @@ external services.
 
 #### Example
 <div class="example">
-  <img src="../assets/components/priority-compact-lg.png" alt="Priority link">
+  <img src="assets/components/priority-compact-lg.png" alt="Priority link">
 </div>
 
 They can be extended to include extra context. A small amount of text can help define a confusing service,
@@ -18,5 +18,5 @@ clarify its worth or show its value.
 
 #### Example
 <div class="example">
-  <img src="../assets/components/priority-lg.png" alt="Priority link with additional content">
+  <img src="assets/components/priority-lg.png" alt="Priority link with additional content">
 </div>
