@@ -1,7 +1,7 @@
 ---
 layout: manual.njk
 title: Design styles
-description: Design elements to help you design NHS.UK services and products consistently.
+description: Visual and interaction design elements to help you consistently design NHS.UK services and products.
 breadcrumb_2_name: Design styles
 ---
 
