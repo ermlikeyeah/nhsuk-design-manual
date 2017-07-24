@@ -1,7 +1,7 @@
 ---
 layout: manual.njk
 title: NHS.UK design principles
-description: We are in the process of establishing a set of design principles. This is a piece of collaborative work between NHS.UK teams, spanning content, design and development.
+description: Our principles are a collaborative piece of work between NHS.UK teams, spanning content, design and development.
 breadcrumb_2_name: Design principles
 ---
 
