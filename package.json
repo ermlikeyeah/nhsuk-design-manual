@@ -1,5 +1,5 @@
 {
-  "name": "nhs-transformation",
+  "name": "nhsuk-design-manual",
   "private": true,
   "dependencies": {
     "gh-pages": "^0.12.0",

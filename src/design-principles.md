@@ -37,7 +37,7 @@ The needs of patients and the NHS staff who support them shape the services we b
 Health journeys are complex. Our services are for everyone. Nobody should be excluded, discriminated against or left
 behind. Don’t hinder users with anything that increases friction. Elegance comes from doing the most with the least,
 being simple without being simplistic.
-* <a href="#">Hinrich on simple not simplistic</a>
+* <a href="http://transformation.blog.nhs.uk/simple-not-simplistic-how-we-design-information">Simple, not simplistic – how we design information</a>
 
 <a name="3"></a>
 ## 3. Look around and ahead

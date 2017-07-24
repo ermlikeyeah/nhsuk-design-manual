@@ -11,7 +11,7 @@ We use images to help people validate their symptoms. All our images are cropped
 
 #### Example
 <div class="example">
-  <img src="../assets/units/image.png" alt="Image cropped at 3 by 2 ratio">
+  <img src="assets/units/image.png" alt="Image cropped at 3 by 2 ratio">
 </div>  
 
 #### Image with caption
@@ -20,5 +20,5 @@ We use captions to describe the symptom to give more context where needed.
 
 #### Example
 <div class="example">
-  <img src="../assets/units/figcaption.png" alt="Image with caption text">
+  <img src="assets/units/figcaption.png" alt="Image with caption text">
 </div>

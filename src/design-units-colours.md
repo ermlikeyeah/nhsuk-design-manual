@@ -7,6 +7,7 @@ breadcrumb_3_name: Colours
 ---
 
 At this stage, NHS.UK uses a reduced colour palette, taken from [NHS brand guidelines](https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/).
+
 There have been 2 modifications to this palette:
 
 **Greens**<br> We use a shade of the existing secondary green. This colour is used on some navigational elements,
@@ -17,7 +18,7 @@ Lighter greys are used as backgrounds for some callout panels that also comply w
 
 #### Online colour palette
 <div class="example">
-  <img src="../assets/units/swatches.png" alt="NHS online colour palette">
+  <img src="assets/units/swatches.png" alt="NHS online colour palette">
 </div>
 
 #### Text contrast
@@ -26,5 +27,9 @@ These are combinations of text and colour which comply with AA and AAA WCAG cont
 
 ##### Online colour contrast guide
 <div class="example">
-  <img src="../assets/units/contrast.png" alt="NHS online text contrast">
+  <img src="assets/units/contrast.png" alt="NHS online text contrast">
 </div>
+
+Further reading
+
+* [Colour, contrast and accessibility](http://transformation.blog.nhs.uk/colour-contrast-and-accessibility)

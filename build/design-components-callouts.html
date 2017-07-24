@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-      <title>Design components - NHS.UK</title>
+      <title>Callouts - NHS.UK</title>
 
       
   <!--[if IE]><link rel="shortcut icon" href="assets/images/favicon.ico"><![endif]-->
@@ -50,14 +50,14 @@
       
 
       
-
+<!--
 <div class="notification-banner notification-banner">
   <div class="notification-banner__inner">
   <div style="padding: 4px 8px; display: inline-block; background: black; color: #fada8b;  margin-right: 8px; font-weight: 700;">Alpha</div>
     This is a service we are working on.
   </div>
 </div>
-
+-->
 
   
   <header role="banner">
@@ -68,6 +68,8 @@
         </a>
         
           
+            <span class="global-header__service-name">NHS.UK design manual</span>
+          
         
       </div>
     </div>
@@ -76,11 +78,17 @@
 
 
   
-  <div class="notification-banner notification-banner--hiviz">
+  <div class="notification-banner notification-banner">
     <div class="notification-banner__inner">
     <a href="index.html">Design manual</a> &rarr;
     
-    Design components
+    <a href="design-styles.html">Design styles</a>
+
+    
+         &rarr; Callouts
+    
+
+
     
     </div>
   </div>
@@ -94,9 +102,9 @@
 
   <div class="full-width-header"/>
     <div class="page-section">
-      <h1 class="local-header__title">Design components</h1>
+      <h1 class="local-header__title">Callouts</h1>
       <div class="local-header__intro">
-        <p>Combined design styles that have built components.</p>
+        <p></p>
       </div>
     </div>
   </div>
@@ -104,49 +112,7 @@
   <div class="page-section">
     <div class="grid-row">
       <div class="column--three-quarters">
-        <h3 id="priority-link">Priority link</h3>
-<p>These are links that have higher visual priority than standard text links. They’re typically used to access
-external services.</p>
-<h4 id="example">Example</h4>
-<div class="example">
-  <img src="../assets/components/priority-compact-lg.png" alt="Priority link">
-</div>
-<p>They can be extended to include extra context. A small amount of text can help define a confusing service,
-clarify its worth or show its value.</p>
-<h4 id="example">Example</h4>
-<div class="example">
-  <img src="../assets/components/priority-lg.png" alt="Priority link with additional content">
-</div>
-<hr>
-<h3 id="reveal">Reveal</h3>
-<p>We only ever use reveals for progressive disclosure - and only for content that addresses lower priority needs.
-We give reveals descriptive titles that clearly explain their contents. We never use reveals to hide content that meets
-most users’ needs, just to make a page shorter for instance.</p>
-<h4 id="example">Example</h4>
-<div class="example">
-  <div class="grid-row">
-    <img src="../assets/components/progressive-reveal-open-lg.png" alt="Progressive reveal open">
-  </div>
-</div>
-<hr>
-<h3 id="local-header">Local header</h3>
-<p>The local header appears at the top of the page. It usually contains a combination of the page title,
-description and page navigation.</p>
-<h4 id="local-header-with-description">Local header with description</h4>
-<div class="example">
-  <img src="../assets/components/local-header/default-lg.png" alt="Local header with description">
-</div>
-<h4 id="local-header-with-on-page-navigation">Local header with on page navigation</h4>
-<div class="example">
-  <img src="../assets/components/local-header/page-navgiation-lg.png" alt="Local header with on page navigation">
-</div>
-<h4 id="local-header-for-guide">Local header for guide</h4>
-<div class="example">
-  <img src="../assets/components/local-header/guide-navgiation-lg.png " alt="Local header for guide">
-</div>
-<hr>
-<h3 id="callouts">Callouts</h3>
-<p>We use callouts to draw attention to important areas of content.</p>
+        <p>We use callouts to draw attention to important areas of content.</p>
 <h4 id="primary-care">Primary care</h4>
 <p>We use a callout with a blue border to indicate when people should seek help from a medical professional for
 their condition. For example, when to see a GP or practice nurse.</p>
@@ -181,58 +147,6 @@ This callout is often combined with a link to make a priority action.</p>
 <h5 id="example">Example</h5>
 <div class="example">
   <img src="../assets/components/callout/info.png" alt="Info callout">
-</div>
-<hr>
-<h3 id="binary-lists">Binary lists</h3>
-<p>We use binary lists to display 2 related lists of content. These are displayed in a 2 column layout on
-large viewports. We stack one on top of the other on smaller viewports.</p>
-<h4 id="example-in-a-large-viewport">Example in a large viewport</h4>
-<div class="example">
-  <img src="../assets/components/binary-list-lg.png" alt="Binary list in large viewport">
-</div>
-<h4 id="example-in-a-small-viewport">Example in a small viewport</h4>
-<div class="example">
-  <img src="../assets/components/binary-list-sm.png " alt="Binary list in small viewport">
-</div>
-<hr>
-<h3 id="tabular-data">Tabular data</h3>
-<p>We use tabular data to display 2 or more lists of content where each list item is directly comparable.
-This is an early stage pattern and needs more work. At the moment, it really only works for 2 columns of short content.
-The table columns don’t stack on top of each other on mobile.</p>
-<h4 id="example">Example</h4>
-<div class="example">
-  <img src="../assets/units/table.png " alt="Info callout">
-</div>  
-<hr>
-<h3 id="media">Media</h3>
-<p>Media components are self-contained items of content displayed in a grid layout. We use them mainly to display a
-sequence of images with captions. This is an early stage pattern and needs more work.</p>
-<p>Media components are arranged in a grid on large viewports.</p>
-<h4 id="example">Example</h4>
-<div class="example">
-  <img src="../assets/components/cards/image-cards-lg.png " alt="Media items in large viewport">
-</div>  
-<p>Media components are stacked on top of each other on small viewports.</p>
-<h5 id="example">Example</h5>
-<div class="example">
-  <img src="../assets/components/cards/image-cards-sm.png " alt="Media items in small viewport">
-</div>  
-<hr>
-<h2 id="assemblies">Assemblies</h2>
-<p>These are a combination of units and components to address a user need.</p>
-<div class="grid-row">
-  <div class="column--two-thirds">
-    <h3>Example in a large viewport</h3>
-    <div class="example">
-      <img src="../assets/assemblies/viewport-large.png" alt="Assembly in large viewport">
-    </div>
-  </div>
-  <div class="column--one-third">
-    <h3>Example in a small viewport</h3>
-    <div class="example">
-      <img src="../assets/assemblies/viewport-small.png" alt="Assembly list in small viewport">
-    </div>
-  </div>
 </div>
 </div>
     </div>

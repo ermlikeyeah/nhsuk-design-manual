@@ -12,19 +12,19 @@ on how we write links.
 
 #### Link
 <div class="example">
-  <img src="../assets/units/link.png" alt="Link text">
+  <img src="assets/units/link.png" alt="Link text">
 </div>
 
 #### Reversed link
 <div class="example">
-  <img src="../assets/units/link-reverse.png" alt="Link reverse out on dark background">
+  <img src="assets/units/link-reverse.png" alt="Link reverse out on dark background">
 </div>
 
 Links can be reversed on dark backgrounds. Check contrast ratio for WCAG compliance. At 20px we should aim for AAA.
 
 #### Inline link
 <div class="example">
-  <img src="../assets/units/link-inline.png" alt="Link inline with text">
+  <img src="assets/units/link-inline.png" alt="Link inline with text">
 </div>
 
 #### Buttons
@@ -35,5 +35,5 @@ Buttons require enough padding around the button label. 16px above and below. 24
 
 ##### Example
 <div class="example">
-  <img src="../assets/units/button.png" alt="Button">
+  <img src="assets/units/button.png" alt="Button">
 </div>

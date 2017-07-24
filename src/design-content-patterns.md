@@ -1,6 +1,6 @@
 ---
 layout: manual.njk
-title: Content design patterns
+title: Content patterns
 breadcrumb_2_name: Content design patterns
 ---
 

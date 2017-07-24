@@ -33,10 +33,14 @@ There are currently 2 type scales for large viewports (such as desktop browser w
 
 ##### Heading scale in large viewports
 <div class="example">
-  <img src="../assets/units/headings-lg.png" alt="Heading scale in larger viewports">
+  <img src="assets/units/headings-lg.png" alt="Heading scale in larger viewports">
 </div>
 
 ##### Heading scale in small viewports
 <div class="example">
-  <img src="../assets/units/headings-sm.png" alt="Heading scale in small viewports">
+  <img src="assets/units/headings-sm.png" alt="Heading scale in small viewports">
 </div>
+
+#### Further reading
+
+* [Colour, contrast and accessibility](http://transformation.blog.nhs.uk/colour-contrast-and-accessibility)

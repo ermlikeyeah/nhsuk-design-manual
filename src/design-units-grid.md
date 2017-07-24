@@ -12,7 +12,7 @@ of 960px. At sizes above 960px the grid is centrally aligned.
 
 #### 16 column grid
 <div class="example">
-  <img src="../assets/units/grids.png" alt="16 column grid">
+  <img src="assets/units/grids.png" alt="16 column grid">
 </div>
 
 #### Baseline grid
@@ -33,7 +33,7 @@ For layouts intended for use on smaller screens, we recommend using a maximum of
 
 #### Layout grid
 <div class="example">
-  <img src="../assets/units/layouts.png" alt="Layout grid">
+  <img src="assets/units/layouts.png" alt="Layout grid">
 </div>
 
 #### Breakpoints
@@ -43,5 +43,5 @@ For simplicity, we are using 2 width breakpoints, resulting in three layouts.
 
 ##### Small, medium and large breakpoints
 <div class="example">
-  <img src="../assets/units/breakpoints.png" alt="Small, medium and large breakpoints">
+  <img src="assets/units/breakpoints.png" alt="Small, medium and large breakpoints">
 </div>
