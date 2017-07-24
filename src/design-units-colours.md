@@ -14,7 +14,7 @@ There have been 2 modifications to this palette:
 such as buttons. A darker green meets accessibility requirements when white button text is used.
 
 **Greys**<br> Greys have been extended to produce a 5-step scale. This gives a wider range and more flexibility.
-Lighter greys are used as backgrounds for some callout panels that also comply with AA and AAA WCAG contrast guidelines.
+Lighter greys are used as backgrounds for some callout panels that also comply with [AA and AAA WCAG contrast guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 
 #### Online colour palette
 <div class="example">

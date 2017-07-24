@@ -5,7 +5,7 @@ description: Visual and interaction design elements to help you consistently des
 breadcrumb_2_name: Design styles
 ---
 
-### Units
+## Units
 
 * [Grid](design-units-grid.html)
 * [Typography](design-units-typography.html)
@@ -16,7 +16,7 @@ breadcrumb_2_name: Design styles
 
 ---
 
-### Components
+## Components
 
 * [Priority links](design-components-priority-links.html)
 * [Reveal](design-components-reveal.html)
@@ -28,6 +28,6 @@ breadcrumb_2_name: Design styles
 
 ---
 
-### Assemblies
+## Assemblies
 
 * [Examples](design-assemblies-examples.html)
