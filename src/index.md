@@ -2,6 +2,7 @@
 layout: manual.njk
 title: NHS.UK design manual
 description: Use this manual to design consistent services on NHS.UK.
+displaySitetitle: no
 ---
 We use [agile delivery](https://www.gov.uk/service-manual/agile-delivery#phases-of-an-agile-project) to design and make NHS.UK services and products. Our work is assessed against the gov.uk [Digital Service Standard](https://www.gov.uk/service-manual/service-standard).
 
@@ -22,7 +23,7 @@ Our principles to guide you as you design your service.
 
 ---
 
-### [Design styles](design-styles.html)
+### [Interaction design styles](design-styles.html)
 
 Units. Components. Assemblies. The style elements to help you design consistent NHS.UK services.
 
@@ -30,14 +31,14 @@ Units. Components. Assemblies. The style elements to help you design consistent 
 
 ### [Content style guide](content-style-guide.html)
 
-The language we use and writing style
+The language we use and writing style.
 
 ---
 
 
-### [Content patterns](design-content-patterns.html)
+### [Design patterns](design-content-patterns.html)
 
-How we write about things and when to use patterns
+Proven solutions to design problems.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: manual.njk
-title: Design styles
+title: Interaction design styles
 description: Visual and interaction design elements to help you consistently design NHS.UK services and products.
-breadcrumb_2_name: Design styles
+breadcrumb_2_name: Interaction design styles
 ---
 
 These styles are based on what we’ve done on NHS.UK so far. Documented here are evidence-based solutions to common design problems around the following NHS.UK services and products:
