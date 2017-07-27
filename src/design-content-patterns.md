@@ -1,12 +1,13 @@
 ---
 layout: manual.njk
-title: Design patterns
-description: Proven solutions to design problems.
+title: Content formats
+description: Guidance on ...
 breadcrumb_2_name: Design patterns
 ---
 
-Interaction and content design working together in context.
+[intro]
 
-All the patterns here have been shown to work through user research.
+### Symptoms and conditions
 
-* [Patterns for symptoms and conditions](design-content-patterns-symptoms-and-conditions.html)
+* [Written elements](design-content-patterns-symptoms-and-conditions-content-elements.html)
+* [Visual elements](design-content-patterns-symptoms-and-conditions-visual-elements.html)

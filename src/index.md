@@ -36,9 +36,9 @@ The language we use and writing style.
 ---
 
 
-### [Design patterns](design-content-patterns.html)
+### [Content formats](design-content-patterns.html)
 
-Proven solutions to design problems.
+Guidance on ....
 
 ---
 
